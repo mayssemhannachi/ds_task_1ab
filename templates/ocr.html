@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block title %}OCR - Text Recognition{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">OCR - Text Recognition</h2>
+    
+    <!-- Upload Form -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Upload Image</h5>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="image" class="form-label">Choose an image containing text</label>
+                    <input type="file" class="form-control" id="image" name="image" accept=".png,.jpg,.jpeg">
+                </div>
+                <button type="submit" class="btn btn-primary">Process Image</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Preview Area -->
+    <div class="card mb-4" id="previewCard" style="display: none;">
+        <div class="card-body">
+            <h5 class="card-title">Image Preview</h5>
+            <img id="imagePreview" class="img-fluid mb-3" style="max-height: 300px;">
+        </div>
+    </div>
+    
+    <!-- Results Area -->
+    <div class="card" id="resultsCard" style="display: none;">
+        <div class="card-body">
+            <h5 class="card-title">OCR Results</h5>
+            <div class="mb-3">
+                <h6>Processed Text:</h6>
+                <p id="processedText" class="border p-3 bg-light"></p>
+            </div>
+            <div class="mb-3">
+                <h6>Raw Text:</h6>
+                <p id="rawText" class="border p-3 bg-light"></p>
+            </div>
+            <div>
+                <h6>Confidence Score:</h6>
+                <div class="progress">
+                    <div id="confidenceBar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                </div>
+                <small id="confidenceText" class="text-muted"></small>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="text-center my-4" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2">Processing image...</p>
+    </div>
+    
+    <!-- Error Alert -->
+    <div class="alert alert-danger" id="errorAlert" style="display: none;" role="alert"></div>
+</div>
+
+<script>
+document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData();
+    const imageFile = document.getElementById('image').files[0];
+    
+    if (!imageFile) {
+        showError('Please select an image file');
+        return;
+    }
+    
+    formData.append('image', imageFile);
+    
+    // Show loading spinner
+    document.getElementById('loadingSpinner').style.display = 'block';
+    document.getElementById('resultsCard').style.display = 'none';
+    document.getElementById('errorAlert').style.display = 'none';
+    
+    try {
+        const response = await fetch('/ocr', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (!response.ok) {
+            throw new Error(result.error || 'Failed to process image');
+        }
+        
+        // Display results
+        document.getElementById('processedText').textContent = result.text || 'No text detected';
+        document.getElementById('rawText').textContent = result.raw_text || 'No raw text available';
+        
+        // Update confidence bar
+        const confidence = result.confidence || 0;
+        const confidenceBar = document.getElementById('confidenceBar');
+        const confidenceText = document.getElementById('confidenceText');
+        confidenceBar.style.width = `${confidence * 100}%`;
+        confidenceText.textContent = `${(confidence * 100).toFixed(1)}%`;
+        
+        // Show results
+        document.getElementById('resultsCard').style.display = 'block';
+        
+    } catch (error) {
+        showError(error.message);
+    } finally {
+        document.getElementById('loadingSpinner').style.display = 'none';
+    }
+});
+
+// Preview image when selected
+document.getElementById('image').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const preview = document.getElementById('imagePreview');
+            preview.src = e.target.result;
+            document.getElementById('previewCard').style.display = 'block';
+        }
+        reader.readAsDataURL(file);
+    }
+});
+
+function showError(message) {
+    const errorAlert = document.getElementById('errorAlert');
+    errorAlert.textContent = message;
+    errorAlert.style.display = 'block';
+}
+</script>
+{% endblock %} 

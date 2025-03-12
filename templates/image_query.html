@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Image Query - Product Recommender{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="text-center mb-0">Handwritten Query Upload</h2>
+            </div>
+            <div class="card-body">
+                <form id="imageQueryForm" method="POST" action="{{ url_for('image_query') }}" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="queryImage" class="form-label">Upload image of handwritten query:</label>
+                        <input type="file" class="form-control" id="queryImage" name="image" accept="image/*" required>
+                        <div class="form-text">Supported formats: PNG, JPEG, JPG</div>
+                    </div>
+                    <div id="imagePreview" class="mb-3 text-center d-none">
+                        <img src="" alt="Preview" class="img-fluid" style="max-height: 300px;">
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Process Query</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {% if error %}
+        <div class="alert alert-danger mt-3" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        {% if extracted_text %}
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">Extracted Text</h3>
+            </div>
+            <div class="card-body">
+                <p class="lead">{{ extracted_text }}</p>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if response %}
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">Search Results</h3>
+            </div>
+            <div class="card-body">
+                
+
+                {% if response.recommendations.products %}
+                <div class="product-table">
+                    <h4>Recommended Products:</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Stock Code</th>
+                                    <th>Description</th>
+                                    <th>Country</th>
+                                    <th>Price</th>
+                                    <th>Similarity Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% set seen_products = {} %}
+                                {% for product in response.recommendations.products|sort(attribute='similarity_score', reverse=true) %}
+                                    {% if product.stock_code not in seen_products %}
+                                        {% set _ = seen_products.update({product.stock_code: true}) %}
+                                        <tr>
+                                            <td>{{ product.stock_code }}</td>
+                                            <td>{{ product.description }}</td>
+                                            <td>{{ product.country }}</td>
+                                            <td>${{ "%.2f"|format(product.unit_price) }}</td>
+                                            <td>{{ "%.2f"|format(product.similarity_score * 100) }}%</td>
+                                        </tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Image preview functionality
+document.getElementById('queryImage').addEventListener('change', function(e) {
+    const preview = document.getElementById('imagePreview');
+    const previewImg = preview.querySelector('img');
+    const file = e.target.files[0];
+
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            previewImg.src = e.target.result;
+            preview.classList.remove('d-none');
+        }
+        reader.readAsDataURL(file);
+    } else {
+        preview.classList.add('d-none');
+    }
+});
+
+// Form submission handling
+document.getElementById('imageQueryForm').addEventListener('submit', function(e) {
+    const submitButton = this.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    submitButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Processing...';
+});
+</script>
+{% endblock %} 

@@ -1,0 +1,12 @@
+the filter=lfs diff=lfs merge=lfs -text
+file filter=lfs diff=lfs merge=lfs -text
+or filter=lfs diff=lfs merge=lfs -text
+Replace filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+with filter=lfs diff=lfs merge=lfs -text
+type filter=lfs diff=lfs merge=lfs -text
+specific filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+models/product_cnn.pth filter=lfs diff=lfs merge=lfs -text
+venv/lib/python3.13/site-packages/torch/lib/libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
+path/to/large_file filter=lfs diff=lfs merge=lfs -text

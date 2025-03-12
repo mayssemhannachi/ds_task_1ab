@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+.env/
+
+# Flask
+instance/
+uploads/
+training_images/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Large files
+models/product_cnn.pth
+venv/lib/python3.13/site-packages/torch/lib/libtorch_cpu.dylib 

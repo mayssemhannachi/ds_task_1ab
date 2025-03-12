@@ -1,0 +1,8 @@
+flask==3.0.2
+sentence-transformers==2.5.1
+pinecone-client==5.0.1
+python-dotenv==1.0.1
+nltk==3.8.1
+Pillow==10.2.0
+pytesseract==0.3.10
+opencv-python==4.9.0.80

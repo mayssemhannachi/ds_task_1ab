@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Text Query - Product Recommender{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="text-center mb-0">Product Text Search</h2>
+            </div>
+            <div class="card-body">
+                <form id="textQueryForm" method="POST" action="{{ url_for('text_query') }}">
+                    <div class="mb-3">
+                        <label for="query" class="form-label">Enter your product query:</label>
+                        <textarea class="form-control" id="query" name="query" rows="3" required
+                                placeholder="Example: I'm looking for a black leather wallet with multiple card slots"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Search Products</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {% if response %}
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">Search Results</h3>
+            </div>
+            <div class="card-body">
+                <div class="natural-response mb-4">
+                    <h4>Response:</h4>
+                    <p class="lead">{{ response.response_text }}</p>
+                </div>
+
+                {% if response.products %}
+                <div class="product-table">
+                    <h4>Product Details:</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Stock Code</th>
+                                    <th>Description</th>
+                                    <th>Country</th>
+                                    <th>Price</th>
+                                    <th>Similarity Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% set seen_products = {} %}
+                                {% for product in response.products|sort(attribute='similarity_score', reverse=true) %}
+                                    {% if product.stock_code not in seen_products %}
+                                        {% set _ = seen_products.update({product.stock_code: true}) %}
+                                        <tr>
+                                            <td>{{ product.stock_code }}</td>
+                                            <td>{{ product.description }}</td>
+                                            <td>{{ product.country }}</td>
+                                            <td>${{ "%.2f"|format(product.unit_price) }}</td>
+                                            <td>{{ "%.2f"|format(product.similarity_score * 100) }}%</td>
+                                        </tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.getElementById('textQueryForm').addEventListener('submit', function(e) {
+    const submitButton = this.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    submitButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Searching...';
+});
+</script>
+{% endblock %} 

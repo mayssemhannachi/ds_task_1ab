@@ -1,0 +1,687 @@
+2025-03-11 19:17:12,881 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
+2025-03-11 19:17:24,938 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22384: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:17:27,047 - WARNING - No images found for stock code: ö22384^
+2025-03-11 19:17:39,531 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22727: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:17:41,423 - WARNING - No images found for stock code: ö22727^
+2025-03-11 19:17:52,917 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22112: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:17:54,878 - WARNING - No images found for stock code: ö22112^
+2025-03-11 19:18:06,258 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=23298: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:18:08,100 - WARNING - No images found for stock code: ö23298^
+2025-03-11 19:18:19,573 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=20726: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:18:21,906 - WARNING - No images found for stock code: ö20726^
+2025-03-11 19:18:33,903 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=21034: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:18:36,404 - WARNING - No images found for stock code: ö21034^
+2025-03-11 19:18:47,941 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=21931: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:18:50,268 - WARNING - No images found for stock code: ö21931^
+2025-03-11 19:19:02,597 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22139: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:19:04,874 - WARNING - No images found for stock code: ö22139^
+2025-03-11 19:19:16,484 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22077: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:19:18,190 - WARNING - No images found for stock code: ö22077^
+2025-03-11 19:19:30,302 - WARNING - Error searching https://www.ebay.com/sch/i.html?_nkw=22423: HTTPSConnectionPool(host='www.ebay.com', port=443): Read timed out. (read timeout=10)
+2025-03-11 19:19:32,306 - WARNING - No images found for stock code: ö22423^
+2025-03-11 19:19:32,314 - INFO - Successfully downloaded images for 0/10 products
+2025-03-12 06:11:45,866 - INFO - WebDriver initialized successfully
+2025-03-12 06:11:46,212 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
+2025-03-12 06:11:46,212 - INFO - Starting image scraping process...
+2025-03-12 06:11:56,151 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:56,153 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:56,156 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:56,666 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:57,194 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:57,198 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:57,687 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:11:57,711 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:00,209 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:00,213 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:00,216 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:00,713 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:12:00,725 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:01,236 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:01,240 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:01,753 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:01,759 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:02,270 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:02,778 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:12:02,783 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:02,789 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:03,304 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:09,929 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:12:09,932 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:09,935 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:12:37,647 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:37,652 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:37,654 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:12:41,764 - INFO - Downloaded image 1 for product 22384
+2025-03-12 06:12:41,764 - INFO - Downloaded image 1 for product 23298
+2025-03-12 06:12:41,764 - INFO - Downloaded image 1 for product 22112
+2025-03-12 06:12:41,780 - INFO - Downloaded image 1 for product 22727
+2025-03-12 06:12:42,226 - INFO - Downloaded image 2 for product 22384
+2025-03-12 06:12:42,233 - INFO - Downloaded image 2 for product 23298
+2025-03-12 06:12:42,834 - INFO - Downloaded image 3 for product 22384
+2025-03-12 06:12:42,857 - INFO - Downloaded image 3 for product 23298
+2025-03-12 06:12:43,389 - INFO - Downloaded image 2 for product 22112
+2025-03-12 06:12:43,398 - INFO - Downloaded image 2 for product 22727
+2025-03-12 06:12:43,440 - INFO - Downloaded image 4 for product 22384
+2025-03-12 06:12:43,445 - INFO - Downloaded image 4 for product 23298
+2025-03-12 06:12:44,060 - INFO - Downloaded image 3 for product 22112
+2025-03-12 06:12:44,081 - INFO - Downloaded image 3 for product 22727
+2025-03-12 06:12:44,140 - INFO - Downloaded image 5 for product 22384
+2025-03-12 06:12:44,687 - INFO - Downloaded image 4 for product 22112
+2025-03-12 06:12:44,723 - INFO - Downloaded image 4 for product 22727
+2025-03-12 06:12:44,742 - INFO - Downloaded image 5 for product 23298
+2025-03-12 06:12:45,270 - INFO - Downloaded image 5 for product 22112
+2025-03-12 06:12:45,305 - INFO - Downloaded image 5 for product 22727
+2025-03-12 06:13:00,956 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:13:00,959 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:00,962 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:00,965 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:01,474 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:01,980 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:01,983 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:02,493 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:02,498 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:03,024 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:13:03,027 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:03,030 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:12,803 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:13:12,808 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:12,809 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:13:41,995 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:41,997 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:41,999 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:13:45,068 - INFO - Downloaded image 1 for product 21034
+2025-03-12 06:13:45,881 - INFO - Downloaded image 2 for product 21034
+2025-03-12 06:13:45,989 - INFO - Downloaded image 1 for product 22139
+2025-03-12 06:13:46,769 - INFO - Downloaded image 1 for product 21931
+2025-03-12 06:13:46,894 - INFO - Downloaded image 1 for product 20726
+2025-03-12 06:13:46,898 - INFO - Downloaded image 2 for product 22139
+2025-03-12 06:13:47,711 - INFO - Downloaded image 2 for product 21931
+2025-03-12 06:13:48,599 - INFO - Downloaded image 3 for product 21034
+2025-03-12 06:13:48,887 - INFO - Downloaded image 3 for product 21931
+2025-03-12 06:13:49,485 - INFO - Downloaded image 3 for product 22139
+2025-03-12 06:13:49,629 - INFO - Downloaded image 4 for product 21034
+2025-03-12 06:13:50,263 - INFO - Downloaded image 2 for product 20726
+2025-03-12 06:13:50,363 - INFO - Downloaded image 4 for product 22139
+2025-03-12 06:13:51,122 - INFO - Downloaded image 5 for product 22139
+2025-03-12 06:13:51,129 - INFO - Downloaded image 5 for product 21034
+2025-03-12 06:13:52,005 - INFO - Downloaded image 3 for product 20726
+2025-03-12 06:13:52,343 - INFO - Downloaded image 4 for product 21931
+2025-03-12 06:13:52,963 - INFO - Downloaded image 4 for product 20726
+2025-03-12 06:13:53,281 - INFO - Downloaded image 5 for product 21931
+2025-03-12 06:13:53,696 - INFO - Downloaded image 5 for product 20726
+2025-03-12 06:14:09,661 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:10,189 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:10,700 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:11,224 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:11,740 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:12,245 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:12,766 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:13,279 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:14,299 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:14,815 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:15,331 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:15,843 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:15,843 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:14:29,351 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:14:29,358 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:14:33,580 - INFO - Downloaded image 1 for product 22077
+2025-03-12 06:14:35,110 - INFO - Downloaded image 2 for product 22077
+2025-03-12 06:14:36,012 - INFO - Downloaded image 3 for product 22077
+2025-03-12 06:14:37,066 - INFO - Downloaded image 4 for product 22077
+2025-03-12 06:14:38,102 - INFO - Downloaded image 5 for product 22077
+2025-03-12 06:14:45,198 - INFO - Downloaded image 1 for product 22423
+2025-03-12 06:14:45,696 - INFO - Downloaded image 2 for product 22423
+2025-03-12 06:14:46,093 - INFO - Downloaded image 3 for product 22423
+2025-03-12 06:14:46,837 - INFO - Downloaded image 4 for product 22423
+2025-03-12 06:14:48,225 - INFO - Downloaded image 5 for product 22423
+2025-03-12 06:14:50,750 - INFO - Successfully downloaded images for 10/10 products
+2025-03-12 06:14:50,751 - INFO - Image scraping completed!
+2025-03-12 06:26:28,925 - INFO - WebDriver initialized successfully
+2025-03-12 06:26:29,261 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
+2025-03-12 06:26:36,221 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:36,223 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:36,225 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:36,765 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:36,768 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:38,278 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:38,299 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:38,799 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:38,813 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:39,323 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:39,822 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:39,836 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:40,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:40,855 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:41,354 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:41,869 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:42,372 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:42,372 - WARNING - Timeout waiting for images on google
+2025-03-12 06:26:42,887 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:43,394 - WARNING - Timeout waiting for images on google
+2025-03-12 06:26:43,398 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:43,403 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:44,419 - WARNING - Timeout waiting for images on google
+2025-03-12 06:26:44,423 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:49,729 - WARNING - Timeout waiting for images on google
+2025-03-12 06:26:51,639 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:53,027 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:54,640 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:54,643 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:54,646 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,160 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,163 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,166 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,673 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,677 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:55,681 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:56,193 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:56,197 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:56,707 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:58,590 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:58,592 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:58,595 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,100 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,103 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,107 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,619 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,626 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:26:59,631 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:00,125 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:00,138 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:00,138 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:27:00,635 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:01,145 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:01,657 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:27:01,660 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:02,178 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:02,691 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:08,854 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:27:08,866 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:08,879 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:27:23,532 - WARNING - Error extracting images from amazon: Message: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100981804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000100979ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x00000001004cdea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001004de7d4 cxxbridge1$string$len + 160812
+4   chromedriver                        0x00000001004dd888 cxxbridge1$string$len + 156896
+5   chromedriver                        0x00000001004d4458 cxxbridge1$string$len + 118960
+6   chromedriver                        0x00000001004d4564 cxxbridge1$string$len + 119228
+7   chromedriver                        0x00000001004d2b64 cxxbridge1$string$len + 112572
+8   chromedriver                        0x00000001004d601c cxxbridge1$string$len + 126068
+9   chromedriver                        0x0000000100557444 cxxbridge1$string$len + 655516
+10  chromedriver                        0x0000000100556678 cxxbridge1$string$len + 651984
+11  chromedriver                        0x000000010050935c cxxbridge1$string$len + 335796
+12  chromedriver                        0x0000000100946cd4 cxxbridge1$str$ptr + 2545532
+13  chromedriver                        0x0000000100949fa0 cxxbridge1$str$ptr + 2558536
+14  chromedriver                        0x0000000100926d04 cxxbridge1$str$ptr + 2414508
+15  chromedriver                        0x000000010094a800 cxxbridge1$str$ptr + 2560680
+16  chromedriver                        0x0000000100917ba0 cxxbridge1$str$ptr + 2352712
+17  chromedriver                        0x000000010096a45c cxxbridge1$str$ptr + 2690820
+18  chromedriver                        0x000000010096a5e4 cxxbridge1$str$ptr + 2691212
+19  chromedriver                        0x0000000100979a50 cxxbridge1$str$ptr + 2753784
+20  libsystem_pthread.dylib             0x00000001835ca034 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001835c4e3c thread_start + 8
+
+2025-03-12 06:27:23,535 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:24,407 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:24,411 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:50,379 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:27:51,628 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:54,101 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:56,114 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:56,118 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:56,122 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:56,630 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:56,634 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:57,145 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:57,150 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:57,653 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:58,159 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 0
+2025-03-12 06:27:58,166 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:58,675 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:58,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:58,682 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:59,189 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:59,193 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:27:59,705 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:00,209 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:00,726 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:00,731 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:01,239 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:01,244 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:01,745 - WARNING - Timeout waiting for images on google
+2025-03-12 06:28:01,758 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:01,764 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:02,278 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:02,781 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:03,291 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:03,298 - WARNING - Timeout waiting for images on google
+2025-03-12 06:28:03,809 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:04,323 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:04,323 - WARNING - Timeout waiting for images on google
+2025-03-12 06:28:07,223 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:28:09,867 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:12,543 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:12,546 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:13,337 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:13,340 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:15,396 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:15,398 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:15,403 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:15,914 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:15,919 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:16,436 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:17,443 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:28:17,454 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:17,971 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:18,489 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:18,495 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:19,006 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:19,525 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:20,025 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:28:20,036 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:20,546 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:21,053 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:26,187 - WARNING - Timeout waiting for images on google
+2025-03-12 06:28:26,193 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:26,194 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:28:38,087 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:38,093 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:38,100 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:39,622 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:40,135 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:40,141 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:40,648 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:41,302 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:41,307 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:41,824 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:58,798 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:28:58,804 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:58,805 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:28:58,811 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:28:58,811 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:28:58,818 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:20,842 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:29:23,490 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:35,184 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:29:42,894 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:49,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:49,236 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:49,236 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:29:49,241 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:53,882 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:53,882 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:29:53,884 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:55,406 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:29:57,321 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:57,841 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:58,360 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:59,635 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:29:59,638 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:01,674 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:01,676 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:01,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:02,191 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:02,196 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:02,202 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:02,707 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:02,715 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:03,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:03,236 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:03,747 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:03,753 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:04,248 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:30:04,259 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:04,770 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:04,773 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:05,285 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:05,289 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:05,800 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:06,308 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:06,812 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:07,324 - WARNING - Timeout waiting for images on google
+2025-03-12 06:30:07,337 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:07,843 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:08,360 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:09,890 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:30:09,897 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:13,313 - WARNING - Timeout waiting for images on google
+2025-03-12 06:30:14,962 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:14,987 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:15,496 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:18,683 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:20,068 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:20,073 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:20,075 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:20,585 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:20,590 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:21,103 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:21,109 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:21,632 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:22,129 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:22,637 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:22,641 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:23,151 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:23,658 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:23,658 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:30:23,662 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:24,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:25,194 - WARNING - Timeout waiting for images on google
+2025-03-12 06:30:25,200 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:29,281 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:30:29,286 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:31,769 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:31,769 - WARNING - Timeout waiting for images on google
+2025-03-12 06:30:31,774 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:42,622 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:42,626 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:42,630 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:42,642 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:30:44,314 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:44,822 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:50,566 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:30:50,574 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:52,705 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:30:52,705 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:30:52,710 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:13,324 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:13,325 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:31:37,932 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:31:39,096 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:40,163 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:40,167 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:40,674 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:40,677 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:46,870 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:46,876 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:46,884 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:47,396 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:47,402 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:47,903 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:48,406 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:31:48,412 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:48,930 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:49,436 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:31:49,440 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:49,443 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:49,956 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:50,463 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:31:50,466 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:56,911 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:56,911 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:31:58,065 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:58,068 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:58,571 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:59,091 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:31:59,097 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:00,929 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:00,931 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:00,937 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:01,443 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:01,447 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:01,452 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:01,959 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:02,471 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:02,476 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:02,977 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:03,488 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:03,499 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:04,518 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:04,524 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:05,035 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:05,547 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:06,053 - WARNING - Timeout waiting for images on google
+2025-03-12 06:32:06,056 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:06,574 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:07,075 - WARNING - Timeout waiting for images on google
+2025-03-12 06:32:07,080 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 0
+2025-03-12 06:32:07,603 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:08,109 - WARNING - Timeout waiting for images on google
+2025-03-12 06:32:08,117 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:12,519 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:32:15,637 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:17,805 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:17,808 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:18,336 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:18,341 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:19,981 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:19,984 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:19,989 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:20,493 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:20,500 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:21,007 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:21,010 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:21,013 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:21,535 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:21,539 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:22,532 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:32:22,554 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:23,068 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:24,088 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:28,631 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:32:28,634 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:28,634 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:32:28,639 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:28,644 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:30,179 - WARNING - Timeout waiting for images on google
+2025-03-12 06:32:42,083 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:42,087 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:42,591 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:43,108 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:43,623 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:43,629 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:44,652 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:45,154 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:45,664 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:32:45,679 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:46,706 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:47,220 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:47,740 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:59,302 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:32:59,310 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:32:59,310 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:33:00,631 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:00,659 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:01,171 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:01,684 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:03,717 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:17,211 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:33:17,219 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:17,220 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:33:17,228 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:17,228 - WARNING - Timeout waiting for images on google
+2025-03-12 06:33:17,233 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:30,596 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:33:30,601 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:30,607 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:30,610 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:31,111 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:33:31,115 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:31,630 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:32,141 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:32,658 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:33,684 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:34,187 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:33:35,390 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:35,903 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:36,931 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:38,565 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:42,412 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:42,412 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:33:42,417 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:42,422 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:43,438 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:44,454 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:44,967 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:45,483 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:45,483 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:33:48,114 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:48,619 - WARNING - Timeout waiting for images on google
+2025-03-12 06:33:48,625 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:57,026 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:57,030 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:57,540 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:58,052 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:58,552 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:33:58,566 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:59,082 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:33:59,598 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:01,132 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:01,645 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:02,159 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:02,670 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:03,184 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:04,201 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:04,710 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:05,230 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:05,231 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:34:07,209 - WARNING - Timeout waiting for images on google
+2025-03-12 06:34:08,576 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:08,582 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:10,665 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:10,671 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:17,359 - WARNING - Timeout waiting for images on google
+2025-03-12 06:34:17,362 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:17,369 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:17,375 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:17,923 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:17,925 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:18,443 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:18,450 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:18,948 - WARNING - Timeout waiting for images on google
+2025-03-12 06:34:19,559 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:20,069 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:20,580 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:24,595 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:34:24,599 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:30,099 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:30,100 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:34:36,155 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:36,164 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:34:36,347 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:39,562 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:59,600 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:34:59,608 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:34:59,611 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:35:05,316 - WARNING - Error extracting images from amazon: Message: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000100981804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000100979ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x00000001004cdea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x00000001004de7d4 cxxbridge1$string$len + 160812
+4   chromedriver                        0x00000001004dd888 cxxbridge1$string$len + 156896
+5   chromedriver                        0x00000001004d4458 cxxbridge1$string$len + 118960
+6   chromedriver                        0x00000001004d4564 cxxbridge1$string$len + 119228
+7   chromedriver                        0x00000001004d2b64 cxxbridge1$string$len + 112572
+8   chromedriver                        0x00000001004d601c cxxbridge1$string$len + 126068
+9   chromedriver                        0x0000000100557444 cxxbridge1$string$len + 655516
+10  chromedriver                        0x0000000100556678 cxxbridge1$string$len + 651984
+11  chromedriver                        0x000000010050935c cxxbridge1$string$len + 335796
+12  chromedriver                        0x0000000100946cd4 cxxbridge1$str$ptr + 2545532
+13  chromedriver                        0x0000000100949fa0 cxxbridge1$str$ptr + 2558536
+14  chromedriver                        0x0000000100926d04 cxxbridge1$str$ptr + 2414508
+15  chromedriver                        0x000000010094a800 cxxbridge1$str$ptr + 2560680
+16  chromedriver                        0x0000000100917ba0 cxxbridge1$str$ptr + 2352712
+17  chromedriver                        0x000000010096a45c cxxbridge1$str$ptr + 2690820
+18  chromedriver                        0x000000010096a5e4 cxxbridge1$str$ptr + 2691212
+19  chromedriver                        0x0000000100979a50 cxxbridge1$str$ptr + 2753784
+20  libsystem_pthread.dylib             0x00000001835ca034 _pthread_start + 136
+21  libsystem_pthread.dylib             0x00000001835c4e3c thread_start + 8
+
+2025-03-12 06:35:15,785 - WARNING - Timeout waiting for images on aliexpress
+2025-03-12 06:35:35,813 - WARNING - Timeout waiting for images on amazon
+2025-03-12 06:35:35,817 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:35:35,817 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:35:37,416 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:35:38,499 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:35:59,011 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:35:59,015 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:35:59,015 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:36:01,167 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:02,591 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:03,615 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:05,079 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:05,082 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:05,596 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,115 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,118 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,120 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,631 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,637 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:07,643 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:08,140 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:08,664 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:08,669 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:09,692 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:10,713 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:10,718 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:11,215 - WARNING - Timeout waiting for images on google
+2025-03-12 06:36:11,231 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:11,237 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:11,755 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:12,270 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:12,771 - WARNING - Timeout waiting for images on etsy
+2025-03-12 06:36:12,775 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:13,297 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:16,304 - WARNING - Timeout waiting for images on google
+2025-03-12 06:36:16,317 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:16,322 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:16,832 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:18,172 - WARNING - Timeout waiting for images on google
+2025-03-12 06:36:18,178 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:18,181 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:18,692 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:19,207 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:19,719 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:22,496 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,029 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,033 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,037 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,608 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,608 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:36:26,613 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:26,635 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:27,122 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:27,634 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:28,145 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:28,159 - WARNING - Timeout waiting for images on google
+2025-03-12 06:36:28,671 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:29,182 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:29,783 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:31,878 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:34,754 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:34,754 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:36:34,757 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:34,759 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:35,435 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:35,455 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:36,463 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:36:46,078 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:36:46,081 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:46,730 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:36:46,734 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:37:25,280 - WARNING - Timeout waiting for images on google
+2025-03-12 06:37:41,743 - WARNING - Timeout waiting for images on ebay
+2025-03-12 06:51:02,088 - INFO - WebDriver initialized successfully
+2025-03-12 06:51:02,433 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
+2025-03-12 06:51:28,984 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:51:28,986 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:51:28,987 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:51:31,381 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:51:31,382 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:51:31,383 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:47,512 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:47,513 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:47,514 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:49,840 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:49,841 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:52:49,843 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:53:18,649 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:53:20,819 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:53:48,949 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:53:51,098 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-03-12 06:59:22,281 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
+2025-03-12 07:11:55,091 - INFO - Loaded 10 products from data/dataset/CNN_Model_Train_Data.csv
